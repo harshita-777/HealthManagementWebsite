@@ -1,0 +1,15 @@
+module.exports = {
+  User: require("./User"),
+  VitalSign: require("./VitalSign"),
+  Symptom: require("./Symptom"),
+  SymptomCheck: require("./SymptomCheck"),
+  Hospital: require("./Hospital"),
+  Doctor: require("./Doctor"),
+  Appointment: require("./Appointment"),
+  Medicine: require("./Medicine"),
+  MedicineLog: require("./MedicineLog"),
+  MedicalRecord: require("./MedicalRecord"),
+  Consultation: require("./Consultation"),
+  EmergencyAlert: require("./EmergencyAlert"),
+  Notification: require("./Notification"),
+};
